@@ -1,0 +1,10 @@
+conda create --name envFaceAI python=3.9
+conda activate envFaceAI
+pip install opencv-python
+pip install pyautogui
+sudo pip install pygame
+pip install CMake
+conda install -c conda-forge dlib
+pip install face-recognition 
+pip install twilio
+pip install requests
